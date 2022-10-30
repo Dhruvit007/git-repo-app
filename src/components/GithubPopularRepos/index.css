@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contain-container {
+  width: 80%;
+  max-width: 767px;
+  text-align: center;
+}
+.filter-item-container {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.failure-image {
+  width: 70%;
+}
+.failure-err {
+  font-family: 'Lobster';
+  color: #1e293b;
+  font-weight: bold;
+}
+.success-repo-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+.main-heading {
+  font-family: 'Lobster';
+  font-size: 40px;
+}
